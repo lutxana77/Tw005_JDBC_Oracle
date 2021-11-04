@@ -20,11 +20,13 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-                <dependency>
-				<groupId>com.oracle.database.jdbc</groupId>
-				 <artifactId>ojdbc8</artifactId>
-				 <version>21.1.0.0</version>
+                    <!--Añadido desde Maven para hacer conexion JDBC Oracle-->
+        <dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			 <artifactId>ojdbc8</artifactId>
+			 <version>21.1.0.0</version>
  		</dependency>
+ 		            <!--Fin -->
     </dependencies>
 
     <build>
